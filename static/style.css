@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+/* Global Settings */
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    margin: auto;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background: #F4F4F4;
+}
+
+a {
+    text-decoration: none;
+    color: #242424;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* End Global Settings */
+
+header {
+    background: #EBEAE8;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#title {
+    flex: 5;
+}
+
+.social_media {
+    flex: 1;
+}
+
+.social_media ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social_media li {
+    padding: 0 10px;
+}
+
+.search {
+    flex: 1;
+}
+
+.search input {
+    border: none;
+    padding: 5px;
+}
+
+nav .container {
+    border-bottom: 1px dotted #242424;
+}
+
+nav ul {
+    padding: 0;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav li {
+    padding: 0 10px;
+}
+
+/* Attach this class to <a> tag to show active page in nav */
+.active {
+    background: #EBEAE8;
+    color: #000000;
+    font-weight: bold;
+    padding: 5px;
+}
+
+footer {
+    background: #EBEAE8;
+}
