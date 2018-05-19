@@ -47,10 +47,12 @@ header {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: right;
 }
 
 .social_media li {
     padding: 0 10px;
+    font-size: 18px;
 }
 
 .search {
