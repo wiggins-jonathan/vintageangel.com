@@ -6,16 +6,16 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/About')
+@app.route('/about.html')
 def about():
     return render_template('about.html')
 
-@app.route('/Contact')
+@app.route('/contact.html')
 def contact():
     return render_template('contact.html')
 
 @app.errorhandler(404)
-def page_not_found(e):
+def page_not_found(error):
     return render_template('404.html'), 404
 
 if __name__ == '__main__':
