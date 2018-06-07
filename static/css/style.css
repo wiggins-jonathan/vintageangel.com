@@ -64,6 +64,10 @@ header {
     padding: 5px;
 }
 
+nav {
+    margin: 0 0 15px 0;
+}
+
 nav .container {
     border-bottom: 1px dotted #242424;
 }
