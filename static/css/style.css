@@ -20,6 +20,10 @@ ul {
     list-style-type: none;
 }
 
+p a {
+    text-decoration: underline;
+}
+
 /* End Global Settings */
 
 header {
