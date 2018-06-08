@@ -2,13 +2,10 @@
 
 /* Global Settings */
 body {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 16px;
-    margin: auto;
-    line-height: 1.5;
+    font: 16px/1.5 "Roboto Mono", monospace;
     padding: 0;
     margin: 0;
-    background: #F4F4F4;
+    background: #f4f4f4;
 }
 
 a {
@@ -27,7 +24,7 @@ p a {
 /* End Global Settings */
 
 header {
-    background: #EBEAE8;
+    background: #ebeae8;
 }
 
 .container {
@@ -89,12 +86,12 @@ nav li {
 
 /* Attach this class to <a> tag to show active page in nav */
 .active {
-    background: #EBEAE8;
-    color: #000000;
+    background: #ebeae8;
+    color: #000;
     font-weight: bold;
     padding: 5px;
 }
 
 footer {
-    background: #EBEAE8;
+    background: #ebeae8;
 }
