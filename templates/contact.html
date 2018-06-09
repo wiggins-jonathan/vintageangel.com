@@ -1,14 +1,29 @@
 {% extends "base.html" %}
 {% block content %}
-    <div class="contact_form">
-        Form goes here
-    </div>
+    <div class="contact">
+        <div class="contact_form">
+            <form action="" method="POST">
+                <div id="name_email">
+                    <input type="text" name="name" placeholder="Name"
+                    required="required"> 
+                    <input type="email" name="email" placeholder="Email"
+                        required="required">
+                </div>
+                <div id="message">
+                    <textarea name="message" placeholder="Message"
+                    required="required" rows="5"></textarea>
+                </div>
+                <div id="submit_button">
+                    <input class="submit" type="submit" value="Send">
+                </div>
+        </div>
 
-    <div>
-        <p> Please send any questions, comments, or requests for custom items 
-        to <a href="mailto:cynthia.wiggins@gmail.com">
-        cynthia.wiggins@gmail.com</a>, or fill out the contact form to the
-        left.</p>
-        <p> Thank you for your interest!</p>
+        <div class="contact_text">
+            <p> Please send any questions, comments, or requests for custom 
+            items to <a href="mailto:cynthia.wiggins@gmail.com">
+            cynthia.wiggins@gmail.com</a>, or fill out the contact form to the
+            left.</p>
+            <p> Thank you for your interest!</p>
+        </div>
     </div>
 {% endblock %}

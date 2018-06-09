@@ -92,6 +92,41 @@ nav li {
     padding: 5px;
 }
 
+/* Contact page */
+.contact {
+    display: flex;
+}
+
+.contact_form {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.contact_text {
+    flex: 2;
+}
+
+#name_email, #message, #submit_button {
+    display: flex;
+    margin: 16px 0;
+}
+
+#name_email input[type=text] {
+    width: 50;
+}
+
+.contact_form input[type=submit] {
+   background-color: #ebeae8;
+   color: #000;
+   border: none;
+   cursor: pointer;
+}
+
+.contact input[type=submit]:hover {
+    background-color: #000;
+    color: #fff;
+}
+
 footer {
     background: #ebeae8;
 }
