@@ -1,5 +1,5 @@
 # Ignore python virtual environment
-/venv
+.venv
 
 # Ignore pictures
 *.jpg
